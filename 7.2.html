@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>중간점검</title>
+        <link rel="stylesheet" href="mid-style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+            .ng-font{
+                font-family: 'Nanum Gothic', 돋움;
+            }
+            p{
+                font-size:30px;
+            }
+          
+            h1{font-style: italic;}
+            h1.txt{font-style: normal;}
+
+            ul{list-style-type:circle;}
+
+            section{
+                background:linear-gradient(blue);
+            }
+          </style>
+          
+    </head>
+    
+   
+      
+    <body>
+        <h1 class="txt">TodoList</h1>
+        <section>
+            <strong><h1 class="ng-font">적용해야 할 것은?</h1></strong>
+                <ul>
+                <li>폰트는 @import를 사용하여 google에 있는 나눔고딕을 적용한다.</li>
+                <li>h1 태그에는 text-shadow를 이용해 그림자를 적용한다.</li>
+                <li><s>이 라인에는 취소선으로 종료되었음을 표시한다.</s></li>
+                <li>순서없는 목록을 나타내는 UL에는 빈 원으로 항목을 표시한다.</li>
+                <li>강조의미인 strong태그에는 이탤릭 스타일과 글자 크기를 1.5배로 적용한다.</li>
+                <li>Todo 내용인 section 태그에는 liner-gradient를 이용한 패턴을 적용한다.</li>
+                <li>할일등록 버튼은 background-image 스타일을 통해 이미지 버튼으로 적용한다</li>
+            </ul>
+       
+            
+        </section>
+        <div>
+            <input type="text" id="newItem" placeholder="다음 할 일을 입력하세요."/>
+            <button class="button">할일 등록</button>
+        </div>
+    
+    
+    </body>
+</html>
